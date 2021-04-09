@@ -1,0 +1,49 @@
+#main{
+  background-color:rgba(45,45,45,0.1);
+}
+#title{
+  text-align:center;
+  font-size:50px;
+}
+h4{
+  text-align:center;
+  font-weight:20;
+}
+#img-div{
+  background-color:white;
+  width:80%;
+  height:500px;
+  margin:auto;
+}
+#image{
+  max-width: 80%;
+  display:block;
+  height:auto;
+  margin:auto;
+  border-color: rgba(45,45,45,0.5);
+  border-width: 30px;
+  border-style: solid;
+  border-radius:50%;
+}
+#img-caption{
+  text-align:center;
+  font-size:15px;
+  font-weight:200;
+}
+h3{
+  text-align:center;
+  font-size:25px;
+}
+#tribute-info{
+  width:50%;
+  margin:auto;
+  line-height:30px;
+}
+#shiji{
+  font-weight:bold;
+  font-style:italic;
+}
+#tribute-link{
+  text-align:center;
+  font-size:35px;
+}

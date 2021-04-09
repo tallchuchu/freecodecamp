@@ -1,0 +1,65 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<main id="main">
+<h1 id="title">314注册表</h1>
+  <p id="description">此网站用于需要注册进入20<sup>#</sup>314<sup>#</sup>的人员所设计</p>
+  <div id="main-form" >
+  <form id="survey-form">
+    <div class="inf-box">
+      <label class="cue" id="name-label">姓名</label>
+      <input type="text" id="name" placeholder="请输入你的姓名" class="input1" required />
+      <label class="cue" id="email-label"> 邮箱</label>
+      <input type="email" id="email" placeholder="请输入邮箱"class="input1" required/>
+    <label class="cue" id="number-label">年龄</label>
+    <input type="number" id="number" placeholder="请输入年龄" min="10"  max="160" class="input1" required/>
+    <label class="cue">年级</label>
+    <select id="dropdown" list="grade_list" class="input1">
+        <option value="大一">大一</option>
+        <option value="大二">大二</option>
+        <option value="大三">大三</option>
+        <option value="大四">大四</option>
+      </select>
+      <fieldset class="cue">
+      <legend>你愿意加入我们吗？</legend>
+        <input id="mind1" type="radio" name="degree" class="feeling" value="yes">
+        <lable for="mind1">愿意</lable><br>
+          <input id="mind2" type="radio" name="degree" class="feeling" value="no">
+        <lable for="mind2">一般</lable><br>
+          <input id="mind3" type="radio" name="degree" class="feeling" value="common">
+        <lable for="mind3">不愿意</lable><br>
+        </fieldset>
+      <lable class="cue">专业</lable>
+    <input type="text" id="major" list="major_list" class="input1">
+      <datalist id="major_list" >
+        <option value="计算机">计算机</option>
+        <option value="数学">数学</option>
+        <option value="英语">英语</option>
+        <option value="自动化">自动化</option>
+        <option value="民航">民航</option>
+        <option value="管理">管理</option>
+        </datalist>
+      <p class="cue">为什么进入这个网站</p>
+      <lable for="meaning" id="meaning-select">
+        <input id="meaning" type="checkbox" value="fun">觉得有趣<br>
+        <input id="meaning" type="checkbox" value="know">相认识一下<br>
+        <input id="meaning" type="checkbox" value="just look">只是看看而已<br>
+        <input id="meaning" type="checkbox" value="study">想好好学习<br>
+      </lable>
+      <p class="cue">还有什么想说的？</p>
+      <textarea row="3" col="30" class="input1"></textarea>
+      <p class="cue"></p>
+      <input type="submit" class="input1" value="提交"  id="submit" >
+      </div>
+  </form>
+  </div>
+  
+  </maim>
