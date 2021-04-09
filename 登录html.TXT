@@ -1,0 +1,46 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<header id="header">
+  <img src="123" alt="" id="header-img">
+  <nav id="nav-bar">
+    <nav class="nav-link1"><a href="#member" class="nav-link">成员</a></nav>
+    <nav class="nav-link1"><a href="#major" class="nav-link">专业</a></nav>
+    <nav class="nav-link1"><a href="#develop" class="nav-link">发展</a></nav>
+  </nav>
+</header>
+<br>
+<br>
+<h2>314网站登录与注册</h2>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+<div id="login">
+  
+  <div class="eye"><input type="email" id="email" placeholder="请输入邮箱" name="email" required></div>
+    <div class="eye"><input type="submit" id="submit"value="注册"></div>
+  </div>
+  </form>
+<main>
+  <div id="words">
+    <div id="member">
+      <h3 class="intro">成员</h3>
+      <p>这里记载了历年来住宿在314的各路人马，相聚有缘，不负此生！</p>
+    </div>
+     <div id="major">
+      <h3 class="intro">专业</h3>
+      <p>这里记载了历年来20.314接待的每个专业！</p>
+    </div>
+     <div id="develop">
+      <h3 class="intro">发展</h3>
+      <p>这里记载了历年来住宿在314的各路人马，向未来的路！</p>
+    </div>
+  </div>
+<div><video src="#" id="video" control="controls"></div>
+  </main>

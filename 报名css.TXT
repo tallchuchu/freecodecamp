@@ -1,0 +1,44 @@
+#main{
+     background:linear-gradient(35deg,#FFCCCC,#CCFFFF);
+}
+
+#title{
+  font-size:35px;
+  font-weight:400;
+  text-align:center;
+  font-family:Microsoft JhengHei;
+}
+#description{
+  text-align:center;
+  font-size:25px;
+  font-weight:200;
+  font-family:Microsoft JhengHei;
+}
+.inf-box{
+  width:60%;
+  boder:50px;
+  margin:auto;
+}
+.cue{
+  font-size:20px;
+  font-weight:bolder;
+}
+#main-form{
+  border-radius:5px;
+   background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+  width:60%;
+  margin:auto;
+}
+.input1{
+  height:30px;
+  width:100%;
+  border-radius:5px;
+}
+#meaning-select{
+  font-size:20px;
+}
+#submit{
+  background-color:#FFFCCC;
+  font-weight:bold;
+  font-size:15px;
+}
